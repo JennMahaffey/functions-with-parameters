@@ -12,7 +12,7 @@ let name = 'jennifer';
 let greeting = 'HEY';
 
 function multiply(num) {
-  x = x * num;
+  x *= num;
 
 }
 
