@@ -17,19 +17,19 @@ function multiply(num) {
 }
 
 function modYBy(num) {
-  y = y % num;
+  y %= num;
 }
 
 function opposite(num) {
-  z = -1 * num
+  z = -num
 }
 
 function makeFullName(str) {
-   name = name + " " + str;
+   name += " " + str;
 }
 
 function yellAt(str) {
-  greeting = greeting + ', ' + str + '!'
+  greeting += ', ' + str + '!'
 }
 
 
